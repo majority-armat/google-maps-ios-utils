@@ -226,6 +226,7 @@
 		AAE6BA6A2458CD510051CD31 /* GMUTestClusterItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE6BA262458C9EB0051CD31 /* GMUTestClusterItem.m */; };
 		AAE6BA6B2458CD510051CD31 /* GMUTestClusterItem.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE6BA272458C9EB0051CD31 /* GMUTestClusterItem.h */; };
 		AAE83A31245794B20064204E /* GMUClusterManager+Testing.h in Headers */ = {isa = PBXBuildFile; fileRef = AABFFEBC24578CAC0015D8C6 /* GMUClusterManager+Testing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61F6B312BDF944500EDEB1E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B61F6B302BDF944500EDEB1E /* PrivacyInfo.xcprivacy */; };
 		F849455F209C15CE00C60C05 /* GoogleMapsUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F849455D209C15CE00C60C05 /* GoogleMapsUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -451,6 +452,7 @@
 		AAE6BA272458C9EB0051CD31 /* GMUTestClusterItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUTestClusterItem.h; sourceTree = "<group>"; };
 		AAE6BA4E2458CBFE0051CD31 /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMock.framework; path = Carthage/Build/iOS/OCMock.framework; sourceTree = "<group>"; };
 		AAE6BA502458CC2F0051CD31 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B61F6B302BDF944500EDEB1E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		F84944ED209BEBED00C60C05 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
 		F849455B209C15CE00C60C05 /* GoogleMapsUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleMapsUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F849455D209C15CE00C60C05 /* GoogleMapsUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleMapsUtils.h; sourceTree = "<group>"; };
@@ -1026,6 +1028,7 @@
 			children = (
 				F849455D209C15CE00C60C05 /* GoogleMapsUtils.h */,
 				F849455E209C15CE00C60C05 /* Info.plist */,
+				B61F6B302BDF944500EDEB1E /* PrivacyInfo.xcprivacy */,
 			);
 			path = GoogleMapsUtils;
 			sourceTree = "<group>";
@@ -1262,6 +1265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B61F6B312BDF944500EDEB1E /* PrivacyInfo.xcprivacy in Resources */,
 				3A29047724EC964F002EB180 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
